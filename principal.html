@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--ESTA PÁGINA DEVE CONTER UM INPUT PARA CÓDIGO HEXADECIMAL QUE, QUANDO SUBMETIDO ALTERA A COR DE FUNDO DA PÁGINA-->
+
+<html lang="pt-br">
+    
+    <head> 
+        <meta charset="utf-8">
+        <title>Teste Troca Cores</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    </head>
+
+    <body>    
+        <header> 
+            <a href="teste.html" id="troca"> Troca-Cores </a>
+            <nav>
+                <ul>
+                    <li id="x">
+                        <a href="basico.html" id="troca"> básico </a>
+                    </li>
+                    <li id="x">
+                        <a href="hex.html" id="troca"> #hexa </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="box">
+                <label for="input" class= "inserir" style="text-transform: uppercase; font-weight: 900; font-size: 1.2em;">Digite o código Hexadecimal</label>
+                <input type="text" id="input" name="input" placeholder="#09afAF">
+                <label for="envia"></label>
+                <input type= "submit" id="envia" name="envia">        
+        </main>        
+        
+        <footer>
+            <p> Praticando JavaScript, HTML e CSS. Ana Outubro/2022 </p> 
+            <a href="https://www.freecodecamp.org/news/javascript-projects-for-beginners/#how-to-create-a-color-flipper">Exercício proposto no freeCodeCamp.org </a>
+        </footer>
+    </body>
+    
+    <script src="principal.js"></script>
+
+</html>
