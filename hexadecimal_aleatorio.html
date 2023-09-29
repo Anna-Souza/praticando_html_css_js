@@ -1,44 +1,43 @@
 <!DOCTYPE html>
-<!--ESTA PÁGINA DEVE TER UM BOTÃO QUE ALTERE ALEATORIAMENTE A COR DE FUNDO DA PÁGINA PARA UMA COR SORTEADA NO PADRÃO HEXADECIMAL-->
 
 <html lang="pt-br">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Teste Troca Cores</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    </head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Troca-Cores</title>
+		<link rel="stylesheet" href="../praticando_html_css_js/reset.css">
+		<link rel="stylesheet" href="../praticando_html_css_js/style.css">
+	</head>
 
-    <body>    
-        <header>
-            <a href="teste.html" id="troca"> Troca-Cores </a>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="basico.html" id="troca"> básico </a>
-                    </li>
-                    <li>
-                        <a href="hex.html" id="troca"> #hexa </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+	<body>    
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<a href="../index.html" class="troca"> Troca-Cores </a>
+					</li>
+					<li>
+						<a href="../praticando_html_css_js/cores_basicas.html" class="troca"> Cores Básicas </a>
+					</li>
+					<li>
+						<a href="../praticando_html_css_js/hexadecimal_aleatorio.html" class="troca"> Hexadecimal </a>
+					</li>
+				</ul>
+			</nav>
+			<p>Aqui você verá uma cor aleatória ao fundo e seu respectivo código hexadecimal a cada vez que clicar no botão central.</p>
+		</header>
 
-        <main>
-            <label for="cor"> </label>
-            <button type="submit" id="cor">COR: <br> <span>  </span> </button>
-        </main>        
+		<main>
+			<label for="cor"> </label>
+			<button type="submit" id="cor" class="cor">COR: <br> <span>  </span> </button>
+		</main>        
 
-        <footer>
-            <p> Praticando JavaScript, HTML e CSS. Ana Outubro/2022 </p> 
-            <a href="https://www.freecodecamp.org/news/javascript-projects-for-beginners/#how-to-create-a-color-flipper">Exercício proposto no freeCodeCamp.org </a>
-        </footer>
-    </body>
+		<footer>
+			<p> Praticando JavaScript, HTML e CSS - Adaptação do exercício proposto no <a href="https://www.freecodecamp.org/news/javascript-projects-for-beginners/#how-to-create-a-color-flipper">freeCodeCamp.org </a> </p> 
+		</footer>
+	</body>
 
-    <script src="hexadecimal_aleatorio.js"></script>
+	<script src="../praticando_html_css_js/hexadecimal_aleatorio.js"></script>
     
 </html>

@@ -1,6 +1,6 @@
 //LÓGICA PARA TROCA ALEATÓRIA DE CORES EM PADRÃO HEXADECIMAL
 
-const fundo = document.querySelector("body");
+const fundo = document.querySelector("main");
 
 const botao = document.querySelector("#cor");
 

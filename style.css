@@ -1,23 +1,19 @@
 body {
-	font-family: 'Shadows Into Light', cursive;
+	font-family: cursive;
 	display: grid;
 	grid-template-areas: 
 	"top"
 	"main"
 	"foot";
-	grid-template-rows: 2fr 24fr 2fr;
+	grid-template-rows: 2fr 7fr 1fr;
 }
 
 header {
 	grid-area: top;
-	display: flex;
-	text-align: center;
-	justify-content: space-evenly;
 }
 
 nav {
-	width: 30%;
-	margin-top: 15px;
+	margin-top: 35px;
 }
 
 ul {
@@ -25,45 +21,59 @@ ul {
 	justify-content: space-around;
 }
 
-#troca {
+.troca {
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 2em;
 	text-decoration: underline overline;
 	color: black;
 	font-weight: bolder;
-	margin-top: 15px;
 }
 
+p {
+	margin-top: 1.5em;
+	font-size: 1.3em;
+	text-align: center;
+}
 main {
 	grid-area: main;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 20px;
+	border: solid black 0.4em;
+	border-radius: 0.4em;
+	font-size: 2em;
 }
 
-#cor {
-	width: 25%;
+.cor {
+	width: auto;
 	height: 20vh;
-	font-size: 1.5em;
+	font-size: 1em;
+	font-family: inherit;
 	border: solid 5px black;
-	border-radius: 15px;
+	border-radius:0.4em;
 	background: #bcb;
 }
 
 footer {
 	grid-area: foot;
 	text-align: right;
-	font-size: 25px;
+	margin-top: 0.5em;
 }
 
-.box {
-	display: flex;
-	flex-direction: column;
-}
-
-#input {
+.input {
 	height: 5vh;
 	font-family: monospace;
-	font-size: 18px;
+	font-size: 0.8em;
 	text-align: center;
+	border: solid 5px black;
+	border-radius: 0.4em;
+}
+
+.envia {
+	height: 7vh;
+	font-size: 0.7em;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-weight: bolder;
 }

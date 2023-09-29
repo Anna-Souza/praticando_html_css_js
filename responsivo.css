@@ -1,0 +1,96 @@
+body {
+	font-family: cursive;
+	display: grid;
+	grid-template-areas: 
+	"top"
+	"main"
+	"foot";
+	grid-template-rows: 2fr 10fr 2fr;
+}
+
+header {
+	grid-area: top;
+}
+
+nav {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
+	/* width: 100%; */
+	margin: 0;
+} 
+
+/* ul {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	
+} */
+
+/* li {
+	display: inline-block;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+} */
+
+/* li a {
+	display: inline;
+	text-align: inherit;
+	width: 95%;
+	margin: auto;
+} */
+
+/* .troca {
+	text-transform: uppercase;
+	font-size: 1.4em;
+	text-decoration: underline;
+	color: black;
+} */
+
+/* main {
+	grid-area: main;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	border: solid black 5px;
+	border-radius: 15px;
+	font-size: 32px;
+} */
+
+/* .cor {
+	width: 25%;
+	height: 20vh;
+	font-size: 1em;
+	font-family: inherit;
+	border: solid 5px black;
+	border-radius: 15px;
+	background: #bcb;
+} */
+
+/* footer {
+	grid-area: foot;
+	text-align: right;
+	font-size: 22px;
+	margin-top: 20px;
+} */
+
+/* .input {
+	height: 5vh;
+	font-family: monospace;
+	font-size: 28px;
+	text-align: center;
+	border: solid 5px black;
+	border-radius: 15px;
+} */
+
+/* .envia {
+	height: 7vh;
+	font-size: 20px;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-weight: bolder;
+} */
