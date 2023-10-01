@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    
+	<head> 
+     	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     	<title>Troca-Cores</title>
+     	<link rel="stylesheet" href="./pages/reset.css">
+     	<link rel="stylesheet" href="./pages/style.css">
+		<link rel="stylesheet" media="(max-width: 820px)" href="./pages/responsivo.css">
+	</head>
+
+	<body>    
+		<header> 
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html" class="troca"> Troca-Cores </a>
+					</li>
+					<li id="x">
+						<a href="./pages/cores_basicas.html" class="troca"> Cores Básicas </a>
+					</li>
+					<li id="x">
+						<a href="./pages/hexadecimal_aleatorio.html" class="troca"> Hexadecimal </a>
+					</li>
+				</ul>
+			</nav>
+			<p>Aqui você pode digitar um código hexadecimal (6 dígitos de 0 a F) e ver a cor correspondente ao fundo.</p>
+		</header>
+			
+		<main>
+          	<div>
+          		<label for="hexa">Digite um código Hexadecimal:</label>
+               	<input type="text" id="hexa" name="hexa" class="input" placeholder="#09afAF">
+               	<input type= "submit" class="envia">
+			</div>
+     	</main> 
+        
+		<footer>
+			<p>Praticando JavaScript, HTML e CSS - Adaptação do exercício proposto no <a href="https://www.freecodecamp.org/news/javascript-projects-for-beginners/#how-to-create-a-color-flipper"> freeCodeCamp.org </a></p>
+     	</footer>
+		<script src="./pages/principal.js"></script>
+	</body>
+    
+</html>
